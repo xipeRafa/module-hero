@@ -1,0 +1,127 @@
+body{
+  background-color: burlywood;
+  margin: 0;
+}
+
+[class^="flex"]{
+  display:block;
+  position: relative;
+  width: 90%;
+  margin: 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
+ background: Darkred;
+}
+
+[class^="c_"] { 
+    text-align: left;
+    color: #444;
+    width: 100%;
+    float: left;
+    box-sizing:border-box;
+    padding:1.4%;
+    margin:2%;
+    background:rgb(231, 230, 230);
+    border-radius: 1%;
+}
+
+.auto{
+width: 100%;
+margin: 1% 0;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+}
+
+.auto>div{
+margin: 1% 0;
+width: 100%;
+text-align: left;
+padding: 1% 2%;
+float: left;
+}
+
+@media (max-width: 768px){.c_5{width: 58.333333333333336%;}}
+
+@media (max-width: 575px){.c_5{width: 100%}}
+
+@media (min-width: 768px) {
+     .Flex-fdr{
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .c_5{width: 50%;}
+    
+    .auto{flex-direction: row;}
+}
+
+@media (min-width: 1024px){.c_5{width:41.66666666666667%;}}
+
+input[type="button"] {
+  display: inline-block;
+  height: 32px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-left: 2%; 
+  margin-bottom: 2%;
+}
+
+input[type="button"]:hover,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: rgb(17,119,104 );
+  border-color: rgb(73, 173, 158) }
+
+input[type="button"].button-primary:hover,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: rgba(17, 119, 104, 0.878);
+  border-color: rgb(73, 173, 158)  }
+
+h1{margin-bottom: 0;}
+
+.maxWidth{
+  max-width: 90%;
+  float: left;
+}
+.maxWidthCardModule{
+  max-width: 96%;
+}
+hr { 
+  border: none;
+  height: 6px;
+  width: 10%;
+  background:rgba(17, 119, 104, 0.878);
+  margin: 0;
+  margin-left: 2%;
+  margin-bottom: 2%;
+ }
+
+p{
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 1.2%;
+}
+
+h6{
+margin: 0;
+margin-bottom: -10px;
+}
