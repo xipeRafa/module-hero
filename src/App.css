@@ -41,7 +41,7 @@ padding: 1% 2%;
 float: left;
 }
 
-@media (max-width: 768px){.c_5{width: 58.333333333333336%;}}
+@media (max-width: 768px){.c_5{width: 58.5%;}}
 
 @media (max-width: 575px){.c_5{width: 100%}}
 
@@ -56,7 +56,7 @@ float: left;
     .auto{flex-direction: row;}
 }
 
-@media (min-width: 1024px){.c_5{width:41.66666666666667%;}}
+@media (min-width: 1024px){.c_5{width:42%;}}
 
 input[type="button"] {
   display: inline-block;

@@ -1,17 +1,15 @@
-import React from 'react'
-
 import CardModule from './CardModule'
 
 
 const HeroModule = () => {
       return (
-             <div class="auto">
-                 <div class="flex">
+          
+             <div className="auto">
+                 <div className="flex">
                     <CardModule /> 
                  </div>
              </div>
-          
-      )
+    )
 }
 
 export default HeroModule;

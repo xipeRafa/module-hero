@@ -1,4 +1,4 @@
-import React from 'react'
+
  import HeaderModule from './HeaderModule'
  import TextModule from './TextModule'
  import ButtonsModule from "./ButtonsModule";
@@ -6,7 +6,6 @@ import React from 'react'
 const CardModule = () => {
       return (
           
-         
        <div className="c_5 maxWidthCardModule"> 
          <HeaderModule />
          <hr/>
