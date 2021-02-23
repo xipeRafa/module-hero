@@ -41,9 +41,13 @@ padding: 1% 2%;
 float: left;
 }
 
-@media (max-width: 768px){.c_5{width: 58.5%;}}
+@media (max-width: 768px){
+  .c_5{width: 58.5%}
+}
 
-@media (max-width: 575px){.c_5{width: 100%}}
+@media (max-width: 575px){
+  .c_5{width: 100%}
+}
 
 @media (min-width: 768px) {
      .Flex-fdr{

@@ -1,11 +1,14 @@
-import './App.css';
+ 
 
 import HeroModule from './components/HeroModule';
 
+
 function App() {
   return (
-      <HeroModule/> 
-    );
+
+     <HeroModule/> 
+
+    )
 }
 
 export default App;
