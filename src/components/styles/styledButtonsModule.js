@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const PrymaryColor = 'rgb(17,119,104)'
+export const PrimaryColor = 'rgb(17,119,104)'
 
 export const PrimaryButton = styled.button`
   height: 32px;
@@ -13,13 +13,13 @@ export const PrimaryButton = styled.button`
   text-decoration: none;
   white-space: nowrap;
   border-radius: 4px;
-  border: 1px solid ${PrymaryColor};
+  border: 1px solid ${PrimaryColor};
   cursor: pointer;
   box-sizing: border-box;
   margin-left: 2%; 
   margin-bottom: 2%; 
   color: #FFF;
-  background-color: ${PrymaryColor};
+  background-color: ${PrimaryColor};
   border-color: rgb(73, 173, 158);
   outline: 0;
 

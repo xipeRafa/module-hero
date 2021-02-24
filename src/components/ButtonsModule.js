@@ -1,4 +1,4 @@
-import { ButtonsContainer, PrimaryButton,SecondaryButton } from "./styles/buttonsModule";
+import { ButtonsContainer, PrimaryButton,SecondaryButton } from "./styles/styledButtonsModule";
 
 const ButtonsModule = () => {
       return (
