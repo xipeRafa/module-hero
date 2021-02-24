@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const PrymaryColor = 'rgb(17,119,104)'
 
-const PrimaryButton = styled.button`
+ const PrimaryButton = styled.button`
   height: 32px;
   padding: 0 30px;
   text-align: center;
@@ -33,7 +33,7 @@ const PrimaryButton = styled.button`
      }
 `
 
-const SecondaryButton = styled.button`
+ const SecondaryButton = styled.button`
   height: 32px;
   padding: 0 30px;
   text-align: center;
@@ -53,19 +53,17 @@ const SecondaryButton = styled.button`
   outline: 0; 
 
   &:hover{
-  color: #444;
-  border-color: #888;
+     color: #444;
+     border-color: #888;
   } 
 
   &:focus{
-    border-color: #666;
+     border-color: #666;
   }
 `
-
 const ButtonsContainer = styled.div`
-display: flex;
-flex-direction: row;
-
+   display: flex;
+   flex-direction: row;
 `
 
 

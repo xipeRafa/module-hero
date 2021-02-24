@@ -1,6 +1,4 @@
- 
-
-import HeroModule from './components/HeroModule';
+ import HeroModule from './components/HeroModule';
 
 
 function App() {

@@ -1,4 +1,3 @@
-
  import HeaderModule from './HeaderModule'
  import TextModule from './TextModule'
  import ButtonsModule from "./ButtonsModule";
@@ -16,8 +15,7 @@
   margin-bottom: 2%;
  `
  const HeaderComponent = styled.div`
-      max-width: 96%;
-
+    max-width: 96%;
     text-align: left;
     color: #444;
     width: 100%;
@@ -28,24 +26,22 @@
     background:rgb(231, 230, 230);
     border-radius: 1%;
 
-    @media (max-width: 768px){
-  width: 58.5%
-}
+  @media (max-width: 768px){
+      width: 58.5%
+  }
 
-@media (max-width: 575px){
-  width: 100%
-}
+  @media (max-width: 575px){
+      width: 100%
+  }
 
-@media (min-width: 768px) {
-   
-    width: 50%;
-    
+  @media (min-width: 768px) {
+      width: 50%;
+  }
 
-}
-
-@media (min-width: 1024px){
-  width:42%}
- `
+  @media (min-width: 1024px){
+      width:42%
+  }
+`
 
 
 const CardModule = () => {
