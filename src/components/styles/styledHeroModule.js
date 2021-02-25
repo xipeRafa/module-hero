@@ -7,7 +7,7 @@ export const ImageContainer = styled.div`
   margin: 0 0;
   box-sizing: border-box;
   overflow: hidden;
-  background: green;
+  background: black;
   margin: 1% 0;
   width: 100%;
   text-align: left;
